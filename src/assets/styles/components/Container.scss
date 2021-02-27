@@ -1,0 +1,13 @@
+.container{
+    z-index: 2;
+    background-color: rgb(85, 84, 84);
+    margin-left: 10%;
+    width: 80%;
+    height: 100vh;
+}
+@media (max-width: 360px) {
+    .container {
+        margin-left: 0;
+        width: 100%;
+    }
+}

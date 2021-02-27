@@ -1,0 +1,19 @@
+.team{
+    margin-top: 5vh;
+    margin-left: 10%;
+    width: 60%;
+    height: 15%;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 360px) {
+    .team{
+        margin-top: 3vh;
+        margin-left: 1%;
+        width: 96%;
+        height: 11%;
+    }
+}
