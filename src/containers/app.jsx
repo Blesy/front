@@ -16,6 +16,7 @@ import Trait from '../components/Trait';
 import Champions from '../components/Champions';
 import Banner from '../components/Banner';
 import Loading from '../components/Loading';
+import Comentarios from '../components/Comentarios';
 
 // Filtros de busqueda
 import Filters from '../components/filters/Filters';
@@ -220,6 +221,7 @@ const App = () => {
                     <F_Spatula spatula={value => {let filter = {...filters}; filter.spatula = value; req(team, filter)}} />
                     <F_Quantity quantity={value => {let filter = {...filters}; filter.numberChamps = value; req(team, filter)}} />
                 </Filters>
+                <Comentarios/>
             </Container>
         </div>
     );
