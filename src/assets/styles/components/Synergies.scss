@@ -16,9 +16,15 @@
     bottom: 0;
     margin-bottom: 10px;
 }
+@media (max-width: 1920px) {
+    .synergies{
+        height: 79.5vh;
+    }
+}
 @media (max-width: 1440px) {
     .synergies{
         margin-top: 3vh;
+        height: 64.5vh;
     }
 }
 

@@ -8,6 +8,11 @@
     border-radius: 10px;
     text-align: center;
 }
+@media (max-width: 1920px) {
+    .team{
+        height: 12%;
+    }
+}
 @media (max-width: 1440px) {
     .team{
         margin-top: 3vh;
