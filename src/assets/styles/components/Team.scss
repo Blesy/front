@@ -13,9 +13,14 @@
         height: 12%;
     }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
     .team{
         margin-top: 3vh;
+        height: 15%;
+    }
+}
+@media (max-width: 1440px) {
+    .team{
         height: 12%;
     }
 }

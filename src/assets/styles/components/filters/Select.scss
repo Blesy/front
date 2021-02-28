@@ -35,7 +35,11 @@ select {
 select:hover {
     border-color: #888;
 }
-
+@media (max-width: 1600px) {
+    .f-select{
+        margin-top: 0.5%;
+    }
+}
 @media (max-width: 380px) {
     .f-select p {
         font-size: 50%;

@@ -21,9 +21,14 @@
         height: 79.5vh;
     }
 }
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
     .synergies{
         margin-top: 3vh;
+        height: 79.2vh;
+    }
+}
+@media (max-width: 1440px) {
+    .synergies{
         height: 64.5vh;
     }
 }

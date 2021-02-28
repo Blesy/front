@@ -12,7 +12,16 @@
     height: 10%;
     margin-top: 0%;
 }
-
+@media (max-width: 1600px) {
+    .champions{
+        height: 64vh;
+    }
+}
+@media (max-width: 1440px) {
+    .champions{
+        height: 50vh;
+    }
+}
 @media (max-width: 720px) {
     .champions{
         margin-top: 0.5vh;

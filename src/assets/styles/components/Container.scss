@@ -5,6 +5,11 @@
     width: 80%;
     height: 100vh;
 }
+@media (max-width: 1600px) {
+    .container {
+        height: 110vh;
+    }
+}
 @media (max-width: 720px) {
     .container {
         margin-left: 0;
