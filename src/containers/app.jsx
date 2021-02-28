@@ -220,7 +220,6 @@ const App = () => {
                     <F_Spatula spatula={value => {let filter = {...filters}; filter.spatula = value; req(team, filter)}} />
                     <F_Quantity quantity={value => {let filter = {...filters}; filter.numberChamps = value; req(team, filter)}} />
                 </Filters>
-                <Banner/>
             </Container>
         </div>
     );

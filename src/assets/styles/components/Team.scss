@@ -8,12 +8,25 @@
     border-radius: 10px;
     text-align: center;
 }
-
-@media (max-width: 360px) {
+@media (max-width: 1440px) {
     .team{
         margin-top: 3vh;
+        height: 12%;
+    }
+}
+@media (max-width: 720px) {
+    .team{
+        margin-top: 1vh;
         margin-left: 1%;
+        width: 97%;
+        height: 10%;
+    }
+}
+
+@media (max-width: 380px) {
+    .team{
+        margin-top: 3vh;
         width: 96%;
-        height: 11%;
+        height: 10vh;
     }
 }

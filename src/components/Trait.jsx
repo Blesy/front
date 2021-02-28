@@ -48,9 +48,9 @@ const Trait = props => {
     <div className="trait">
         <div className="tooltip">
             <span className="tooltiptext">{props.trait.name}</span>
-            <div className="hexagono3">
-                <div className="hexagono3-1">
-                    <div className={icon +" hexagono3-2"}>
+            <div className="hexagon hexagon2">
+                <div className="hexagon-in1">
+                    <div className={icon + " hexagon-in2"}>
                         <img src={Images[props.trait.name]} alt=""/>
                     </div>
                 </div>

@@ -35,3 +35,12 @@ select {
 select:hover {
     border-color: #888;
 }
+
+@media (max-width: 380px) {
+    .f-select p {
+        font-size: 50%;
+    }
+    select {
+        font-size: 8px;
+    }
+}
