@@ -3,7 +3,7 @@ import assassin from './assassin.png';
 import blacksmith from './blacksmith.png';
 import brawler from './brawler.png';
 import cultist from './cultist.png';
-import deradevil from './daredevil.png';
+import daredevil from './daredevil.png';
 import dazzler from './dazzler.png';
 import divine from './divine.png';
 import dragonsoul from './dragonsoul.png';
@@ -37,7 +37,7 @@ const traitsImages = {
     blacksmith,
     brawler,
     cultist,
-    deradevil,
+    daredevil,
     dazzler,
     divine,
     dragonsoul,
