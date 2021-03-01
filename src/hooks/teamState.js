@@ -9,7 +9,7 @@ const teamState = (team) => {
         body: JSON.stringify({champs: request})
     };
     useEffect(async () => {
-        await fetch("http://localhost:500/findTeam", requestOptions)
+        await fetch("https://sheltered-river-57888.herokuapp.com/findTeam", requestOptions)
         .then(response => response.json())
         .then(data => setAvailables(data.map(item => item.name)));
     }, []);

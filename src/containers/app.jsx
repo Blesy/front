@@ -26,7 +26,7 @@ import F_Spatula from '../components/filters/F_Spatula';
 import F_Quantity from '../components/filters/F_Quantity';
 import F_Principal from '../components/filters/F_Principal';
 
-const API = 'http://localhost:500/findChamps';
+const API = 'https://sheltered-river-57888.herokuapp.com/findChamps';
 
 const App = () => {
     const initialState = useInitialState(API);
@@ -49,7 +49,7 @@ const App = () => {
         body: JSON.stringify({champs: []})
     };
     useEffect(async () => {
-        await fetch("http://localhost:500/findTeam", requestOptions)
+        await fetch("https://sheltered-river-57888.herokuapp.com/findTeam", requestOptions)
         .then(response => response.json())
         .then(data => setAvailables(data.map(item => item.name)));
     }, []);
@@ -57,7 +57,7 @@ const App = () => {
     const getItems = async (tempTeam) => {
         let request = tempTeam.map(item => item.name);
         let response;
-        await axios.post("http://localhost:500/findItems", {champs: request})
+        await axios.post("https://sheltered-river-57888.herokuapp.com/findItems", {champs: request})
         .then(function (res)
         {
             response = res.data;
@@ -78,7 +78,7 @@ const App = () => {
         setFilters(filter);
         filter['champs'] = request;
         setLoading(true);
-        await axios.post("http://localhost:500/findTeam", filter)
+        await axios.post("https://sheltered-river-57888.herokuapp.com/findTeam", filter)
         .then(function (res)
         {
             setAvailables(res.data.map(item => item.name))

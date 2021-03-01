@@ -11,7 +11,7 @@ const Comentarios = (props) => {
     }
 
     const get = async() => {
-        await agent.get('http://localhost:600/getComents')
+        await agent.get('https://sheltered-river-57888.herokuapp.com/getComents')
         .then((data) => {
             setComentarios(data.body)
         })
@@ -30,7 +30,7 @@ const Comentarios = (props) => {
             alert("Debe agregar mas texto")
             return;
         }
-        await agent.post('http://localhost:600/saveComent')
+        await agent.post('https://sheltered-river-57888.herokuapp.com/saveComent')
         .send({
             comentario
         })
