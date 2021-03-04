@@ -45,6 +45,7 @@ const Comentarios = (props) => {
     }
     return (
         <div className="comentarios">
+            <label htmlFor="agregar">Comentario</label>
             <textarea name="comentario" id="agregar" value={comentario} onChange={change} cols="30" rows="10"/>
             <input type="button" className="btn" value="Agregar comentario" onClick={guardar}/>
             <input type="button" className="btn" value="Cargar comentarios" onClick={get}/>
