@@ -51,7 +51,7 @@ const Trait = props => {
             <div className="hexagon hexagon2">
                 <div className="hexagon-in1">
                     <div className={icon + " hexagon-in2"}>
-                        <img src={Images[props.trait.name]} alt=""/>
+                        <img src={Images[props.trait.name]} alt={props.trait.name}/>
                     </div>
                 </div>
             </div>

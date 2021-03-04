@@ -20,7 +20,7 @@ const Champion = props => {
         <p>{props.name}</p>
         <div className={props.classes}
             onClick={event => props.team(props.name)}>
-            <img src={Images[props.name.replace(/\s/g, '')]} alt=""/>
+            <img src={Images[props.name.replace(/\s/g, '')]} alt={props.name}/>
         </div>  
         {images}
     </div>
